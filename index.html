@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<title>beautifull restaruant</title>
+	<!-- css link-->
+	<!--<link rel="stylesheet" type="text/css" href="css/grid.css">-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+<!-- Start HEADER Section-->
+<header class="header" id="header">
+	<nav id="sticky-menubar">
+	<div class="nav row-nav">
+		<div class="logo-div">
+		<a href="#header"><img src="img/logo.png" class="logo" alt="logo-icon"></a>
+		</div>
+		<div class="main-nav-div">
+			<ul class="main-nav">
+				<li class="active"><a href="#header">home</a></li>
+				<li><a href="#oriental">product</a></li>
+				<li><a href="#statistica">promo</a></li>
+				<li><a href="#lenora">about</a></li>
+				<li><a href="#subscribe">contact</a></li>
+				<li><img src="img/search.png" alt="search-icon"></li>
+			</ul>
+			<div class="mobile-menu">
+				<span onclick="openNav()">&#9776;</span>
+				<div class="overlay" id="myNav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="overlay-content">
+						<a onclick="closeNav()" href="#header">home</a>
+						<a onclick="closeNav()" href="#oriental">product</a>
+						<a onclick="closeNav()" href="#statistica">promo</a>
+						<a onclick="closeNav()" href="#lenora">about</a>
+						<a onclick="closeNav()" href="#subscribe">contact</a>
+						<img src="img/search.png" alt="search-icon">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</nav>
+	<div class="hero-text-box">
+		<h1>title here</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+		<a href="" class="btn btn-hero">order now</a>
+	</div>
+</header>
+<!-- End HEADER Section-->
+
+
+<!-- Start BEST Section-->
+<section class="best" id="best">
+	<div class="heading">
+		<h2>best seller</h2>
+		<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+	</div>
+	<div class="row">
+		<div class="card">
+			<img src="img/best-card-img1.png" alt="card-image" class="best-img">
+			<h3>title here</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="card">
+			<img src="img/best-card-img2.png" alt="card-image" class="best-img">
+			<h3>title here</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="card">
+			<img src="img/best-card-img3.png" alt="card-image" class="best-img">
+			<h3>title here</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+	</div>
+</section>
+<!-- End BEST Section-->
+
+
+<!-- Start ORIENTAL Section-->
+<section class="oriental" id="oriental">
+	<div class="row">
+		<div class="oriental-img">
+			<img src="img/oriental-img.png" alt="oriental-taste-image">
+		</div>
+		<div class="oriental-content">
+			<h2>oriental taste</h2>
+			<p class="description-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+			<button class="btn-btn"><a href="#" class="btn">order now</a></button>
+		</div>
+	</div>
+</section>
+<!-- End ORIENTAL Section-->
+
+
+<!-- Start STATISTICA Section-->
+<section class="statistica" id="statistica">
+	<div class="title heading">
+		<h2>statistica</h2>
+		<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+	</div>
+	<div class="row">
+		<div class="border-white">
+			<p class="yellow">123</p>
+			<p class="white">outless</p>
+		</div>
+		<div class="border-white">
+			<p class="yellow">100</p>
+			<p class="white">chef</p>
+		</div>
+		<div class="border-white">
+			<p class="yellow">300</p>
+			<p class="white">menoo</p>
+		</div>
+		<div class="border-white">
+			<p class="yellow">30</p>
+			<p class="white">country</p>
+		</div>
+	</div>
+</section>
+<!-- End STATISTICA Section-->
+
+
+<!-- Start CHECKEN Section-->
+<section class="checken" id="checken">
+	<div class="row">
+		<div class="checken-content">
+			<h2>Chicken Grill</h2>
+			<p class="description-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+			<button class="btn-btn"><a href="" class="btn">order now</a></button>
+		</div>
+		<div class="checken-img">
+			<img src="img/checken-img.png" alt="checken-taste-image">
+		</div>
+	</div>
+</section>
+<!-- End CHECKEN Section-->
+
+
+<!-- Start LENORA Section-->
+<section class="lenora" id="lenora">
+	<div class="lenora-title heading">
+		<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+		<h2>Lenora Fields</h2>
+	</div>
+</section>
+<!-- End LENORA Section-->
+
+
+<!-- Start SUBSCRIBE Section-->
+<section class="subscribe" id="subscribe">
+	<div class="title heading">
+		<h2>subscribe</h2>
+		<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+	</div>
+	<div class="subscribe-btn">
+		<input type="text" placeholder="Your Email" name="">
+		<button type="subscribe" class="btn-subscribe">subscribe</button>
+	</div>
+</section>
+<!-- End SUBSCRIBE Section-->
+
+
+<!-- Start FOOTER Section-->
+<footer class="footer" id="footer">
+	<div class="row-footer paad">
+		<div class="footer-under-title">
+			<div class="footer-title">
+				<ul>
+					<li>title here</li>
+					<li class="footer-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</li>
+				</ul>
+			</div>
+			<div class="social">
+				<ul class="footer-icon">
+					<li><a href=""><img src="img/insta.png"></a></li>
+					<li><a href=""><img src="img/fb.png"></a></li>
+					<li><a href=""><img src="img/tt.png"></a></li>
+					<li><a href=""><img src="img/wa.png"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="">
+			<ul class="footer-about">
+				<li><a href="">about</a></li>
+				<li><a href="">history</a></li>
+				<li><a href="">our team</a></li>
+				<li><a href="">brand guidelens</a></li>
+				<li><a href="">term & condition</a></li>
+				<li><a href="">privacy policy</a></li>
+			</ul>
+		</div>
+		<div class="">
+			<ul class="footer-about">
+				<li><a href="">services</a></li>
+				<li><a href="">How to Order</a></li>
+				<li><a href="">Our Product</a></li>
+				<li><a href="">Order Status</a></li>
+				<li><a href="">Promo</a></li>
+				<li><a href="">Payment Method</a></li>
+			</ul>
+		</div>
+		<div class="footer-under">
+			<ul class="footer-about">
+				<li><a href="">other</a></li>
+				<li><a href="">contact us</a></li>
+				<li><a href="">help</a></li>
+				<li><a href="">privacy</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+<!-- End FOOTER Section-->
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

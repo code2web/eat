@@ -1,0 +1,232 @@
+/* 1200px 1024px.footer {height: 140rem;}, 980px 768px.footer {height: 110rem;}, 480px.footer {height: 85rem;}, */
+@media only screen and (max-width: 1200px) {
+	.lenora .description {
+		width: 85%;
+		font-size: 3.4rem;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.description-right, .checken .description-right {
+		max-width: 35rem;
+	}
+	.footer {
+		height: 140rem;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	html {
+		font-size: 52.5%;
+	}
+	.main-nav li a:link, .main-nav li a:visited {
+		padding: .5rem 1rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 8rem;
+	}
+	.btn, .btn:link, .btn:visited {
+		font-size: 1.6rem;
+		padding: 1.5rem 4rem;
+	}
+	.description {
+		width: 75%;
+		font-size: 1.6rem;
+	}
+	header {
+		height: 50rem;
+	}
+	.row-nav {
+		justify-content: space-between;
+	}
+	.logo {
+		margin-top: .2rem;
+	}
+	.sticky {
+		background: rgba(63, 91, 27, 0.0);
+	}
+	.sticky .logo {
+		background: rgba(246, 84, 3, 0.8);
+		border-radius: .5rem;
+	}
+	.sticky .mobile-menu span {
+		color: #f65403;
+	}
+	.mobile-menu span {
+		display: block;
+	}
+	.main-nav {
+		display: none;
+	}
+	.hero-text-box p {
+		max-width: 40rem;
+		font-size: 1.6rem;
+	}
+	.best .card {
+		width: 18rem;
+	}
+	.best .card img {
+		width: 100%;
+	}
+	.oriental {
+		padding-top: 15rem;
+		height: fit-content;
+	}
+	.oriental-img, .checken-img {
+		width: 33rem;
+	}
+	.oriental-img img, .checken-img img {
+		width: 100%;
+	}
+	.oriental-content, .checken-content {
+		padding-top: 0;
+		width: 20rem;
+	}
+	.oriental-content h2, .checken-content h2 {
+		font-size: 4.2rem;
+		margin-bottom: .5rem;
+	}
+	.description-right, .checken .description-right {
+		font-size: 1.6rem;
+		margin-bottom: .5rem;
+	}
+	.statistica {
+		height: fit-content;
+	}
+	.border-white {
+		width: 14rem;
+		height: 14rem;
+	}
+	.yellow {
+		padding-top: 4rem;
+		font-size: 2.5rem;
+	}
+	.white {
+		font-size: 1.8rem;
+	}
+	.checken {
+		height: fit-content;
+	}
+	.lenora {
+		height: fit-content;
+	}
+	.subscribe-btn {
+		padding-left: 15%;
+	}
+	.footer-p {
+		width: 15rem;
+	}
+	.footer .footer-title ul li, .footer .footer-about li a:link, .footer .footer-about li a:visited {
+		font-size: 1.4rem;
+	}
+	.footer .footer-title ul li:first-child, .footer .footer-about li:first-child a:link, .footer .footer-about li:first-child a:visited {
+		font-size: 2rem;
+	}
+	.social img {
+		width: 3rem;
+	}
+	.social ul li {
+		margin-right: .5rem;
+	}
+	.footer {
+		height: 110rem;
+	}
+	.footer-under-title {
+		padding-bottom: 2.5rem;
+	}
+	.footer-under {
+		padding-bottom: 6.5rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.row {
+		flex-direction: column;
+		align-items: center;
+	}
+	html {
+		font-size: 42.5%;
+	}
+	h1 {
+		font-size: 7rem;
+	}
+	h2 {
+		font-size: 2.1rem;
+	}
+	h3 {
+		/*font-size: 2rem;*/
+		font-size: 7rem;
+	}
+	h4 {
+		font-size: 1.8rem;
+	}
+	.hero-text-box h4.h4-text {
+		font-size: 1.3rem;
+	}
+	h5 {
+		font-size: 1.6rem;
+	}
+	.logo {
+		height: 4rem;
+		margin-top: .2rem;
+	}
+	.hero-text-box {
+		left: 15%;
+	}
+	.hero-text-box p {
+		width: 100%;
+	}
+	.best .card {
+		width: 100%;
+		margin-bottom: 5rem;
+	}
+	.oriental-img, .oriental-content, .checken-img, .checken-content {
+		width: 100%;
+	}
+	.oriental-content h2, .checken-content h2 {
+		text-align: center;
+	}
+	.checken .description-right, .description-right {
+		text-align: center;
+		max-width: 100%;
+	}
+	.btn-btn {
+		display: block;
+		margin: 1rem auto;
+	}
+	.statistica .row {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.statistica h2, .subscribe h2 {
+    	font-size: 8rem;
+	}
+	.subscribe {
+		height: 75rem;
+	}
+	.subscribe-btn {
+		padding-left: 0;
+	}
+	.subscribe-btn input {
+		text-align: center;
+		display: block;
+		margin: auto;
+		font-size: 1.6rem;
+		padding: 1rem;
+	}
+	.btn-subscribe {
+		position: static;
+		padding: 1.2rem;
+		display: block;
+		margin: 1.5rem auto;
+	}
+	.footer {
+		height: 85rem;
+	}
+	.row-footer {
+		flex-wrap: wrap;
+	}
+}
